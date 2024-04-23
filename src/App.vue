@@ -1,13 +1,16 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
 export default{
   components: {
-    
+    AppHeader
   }
 }
 </script>
 
 <template>
-  <h1>Prova</h1>
+
+  <AppHeader></AppHeader>
+  
 </template>
 
 <style lang="scss">
