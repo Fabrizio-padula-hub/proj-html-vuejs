@@ -7,6 +7,7 @@ export default{
 <template>
     <section class="container-big">
         <div class="wrapper">
+            <!-- sezione testo -->
             <div class="one d-flex">
                 <h3>
                     Find a freshly baked product perfect for you
@@ -16,6 +17,8 @@ export default{
                 </p>
                 <button class="btn">Shop All Products</button>
             </div>
+            <!-- /sezione testo -->
+            <!-- sezione immagini -->
             <div class="img-product two">
                 <img src="../assets/images/choco-chip-cookies-200x255.jpg" alt="">
                 <h5>Choco Chip Cookies</h5>
@@ -42,10 +45,9 @@ export default{
                     <i class="fa-solid fa-chevron-right"></i>
                 </div>
             </div>
+            <!-- /sezione immagini -->
         </div>
-       
     </section>
-
 </template>
 
 <style scoped lang="scss">
@@ -113,9 +115,4 @@ export default{
         }
     }
 }
-
-.debug{
-    border: 1px dashed black;
-}
-
 </style>
