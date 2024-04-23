@@ -35,7 +35,6 @@ export default{
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quia tenetur autem alias accusantium laboriosam ut exerci
             </p>
             <button class="btn">Explore our products</button>
-
         </div>
         <!-- info-sections -->
     </header>
@@ -49,6 +48,7 @@ header{
     background-image: url(../assets/images/hero-header-bakery.jpg);
     background-position: 10% 50%;
     background-size: cover;
+    position: relative;
 }
 
 .nav-bar{

@@ -1,8 +1,10 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppProducts from './components/AppProducts.vue';
 export default{
   components: {
-    AppHeader
+    AppHeader,
+    AppProducts
   }
 }
 </script>
@@ -10,7 +12,12 @@ export default{
 <template>
 
   <AppHeader></AppHeader>
-  
+
+  <main>
+    <AppProducts></AppProducts>
+
+  </main>
+
 </template>
 
 <style lang="scss">
