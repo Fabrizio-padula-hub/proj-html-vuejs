@@ -38,7 +38,7 @@ export default{
 <style scoped lang="scss">
 @use '../style/partials/variables' as*;
 .all-products{
-    height: 300px;
+    min-height: 300px;
 
     .info-wrapper{
         padding-right: 40px;

@@ -1,10 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppProducts from './components/AppProducts.vue';
+import AppSpecialMoments from './components/AppSpecialMoments.vue';
+
 export default{
   components: {
     AppHeader,
-    AppProducts
+    AppProducts,
+    AppSpecialMoments
   }
 }
 </script>
@@ -15,6 +18,7 @@ export default{
 
   <main>
     <AppProducts></AppProducts>
+    <AppSpecialMoments></AppSpecialMoments>
 
   </main>
 
