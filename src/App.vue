@@ -4,6 +4,7 @@ import AppProducts from './components/AppProducts.vue';
 import AppSpecialMoments from './components/AppSpecialMoments.vue';
 import AppShop from './components/AppShop.vue';
 import AppProductViewing from './components/AppProductViewing.vue';
+import AppCityWork from './components/AppCityWork.vue';
 
 export default{
   components: {
@@ -11,7 +12,8 @@ export default{
     AppProducts,
     AppSpecialMoments,
     AppShop,
-    AppProductViewing
+    AppProductViewing,
+    AppCityWork
   }
 }
 </script>
@@ -25,6 +27,7 @@ export default{
     <AppSpecialMoments></AppSpecialMoments>
     <AppShop></AppShop>
     <AppProductViewing></AppProductViewing>
+    <AppCityWork></AppCityWork>
 
   </main>
 
