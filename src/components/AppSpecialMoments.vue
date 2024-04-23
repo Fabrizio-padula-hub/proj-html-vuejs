@@ -42,7 +42,7 @@ export default{
 .pictures{
     img{
         object-fit: cover;
-        margin-top: 20px;
+        margin: 20px 0;
     }
     
 }
