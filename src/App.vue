@@ -6,6 +6,7 @@ import AppShop from './components/AppShop.vue';
 import AppProductViewing from './components/AppProductViewing.vue';
 import AppCityWork from './components/AppCityWork.vue';
 import AppGalleryImages from './components/AppGalleryImages.vue';
+import AppDelivery from './components/AppDelivery.vue';
 
 export default{
   components: {
@@ -15,7 +16,8 @@ export default{
     AppShop,
     AppProductViewing,
     AppCityWork,
-    AppGalleryImages
+    AppGalleryImages,
+    AppDelivery
   }
 }
 </script>
@@ -31,6 +33,7 @@ export default{
     <AppProductViewing></AppProductViewing>
     <AppCityWork></AppCityWork>
     <AppGalleryImages></AppGalleryImages>
+    <AppDelivery></AppDelivery>
 
   </main>
 
