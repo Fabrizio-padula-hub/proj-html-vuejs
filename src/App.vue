@@ -20,13 +20,25 @@ export default{
     AppGalleryImages,
     AppDelivery,
     AppFooter
+  },
+  data(){
+    return{
+      navList: [
+        { title: 'SHOP' },
+        { title: 'ABOUT' },
+        { title: 'GALLERY' },
+        { title: 'LOCATIONS' },
+        { title: 'JOURNAL' },
+        { title: 'CONTACT' },
+      ]
+    }
   }
 }
 </script>
 
 <template>
 
-  <AppHeader></AppHeader>
+  <AppHeader :navList="navList"></AppHeader>
 
   <main>
     <AppProducts></AppProducts>
@@ -38,7 +50,7 @@ export default{
     <AppDelivery></AppDelivery>
   </main>
 
-  <AppFooter></AppFooter>
+  <AppFooter :navList="navList"></AppFooter>
 
 </template>
 

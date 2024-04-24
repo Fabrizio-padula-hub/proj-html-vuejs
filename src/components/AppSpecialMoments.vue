@@ -1,6 +1,6 @@
 <script>
 export default{
-    name: 'AppSpecialMoments'
+    name: 'AppSpecialMoments',
 }
 </script>
 
@@ -11,10 +11,10 @@ export default{
             <h3>Baking Special Moments</h3>
         </div>
         <div class="pictures d-flex g-50">
-            <div>
-                <img src="../assets/images/corporate-bg.jpg" alt="">
+            <div class="col-50">
+                <img src="../assets/images/corporate-bg.jpg" alt=""> 
             </div>
-            <div>
+            <div class="col-50">
                 <img src="../assets/images/wedding-bg.jpg" alt="">
             </div>
         </div>
@@ -44,6 +44,12 @@ export default{
         object-fit: cover;
         margin: 20px 0;
     }
-    
 }
+
+
+// UTILITY
+.col-50{
+    width: 50%;
+}
+
 </style>

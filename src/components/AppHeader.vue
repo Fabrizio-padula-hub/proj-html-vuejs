@@ -1,6 +1,7 @@
 <script>
 export default{
     name: 'AppHeader',
+    props: ['navList'],
 }
 </script>
 
@@ -15,10 +16,9 @@ export default{
                 <!-- menu nav-bar -->
                 <nav>
                     <ul class="d-flex">
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
+                        <li>HOME</li>
+                        <li v-for="item in navList">{{ item.title }}</li>
+                        <li>MY ACCOUNT</li>
                         <li><i class="fa-solid fa-cart-shopping"></i></li>
                     </ul>
                 </nav>
@@ -68,6 +68,12 @@ header{
             li{
                 color: $color-primary;
                 margin: 0 10px;
+                font-size: 12px;
+                border-bottom: 1px solid transparent;
+
+                &:hover{
+                    border-bottom: 1px solid $color-primary;
+                }
 
                 i{
                     font-size: 12px;
@@ -78,7 +84,7 @@ header{
 }
 .info-hero{
     padding: 30px;
-    width: 35%;
+    width: 30%;
     margin: 30px 20px;
 
     span{
@@ -100,6 +106,11 @@ header{
     }
     button{
         color: $color-primary;
+
+        &:hover{
+            background-color: $bg-primary;
+            color: white;
+        }
     }
 }
 

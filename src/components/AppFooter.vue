@@ -3,6 +3,7 @@ import SocialFooter from './SocialFooter.vue';
 
 export default{
     name: 'AppFooter',
+    props: ['navList'],
     components: {
         SocialFooter
     }
@@ -20,10 +21,8 @@ export default{
                     <!-- menu nav-bar -->
                     <nav>
                         <ul class="d-flex">
-                            <li>Home</li>
-                            <li>Home</li>
-                            <li>Home</li>
-                            <li>Home</li>
+                            <li v-for="item in navList">{{ item.title }}</li>
+                            <li>ORDES</li>
                             <li><i class="fa-solid fa-cart-shopping"></i></li>
                         </ul>
                     </nav>
@@ -66,6 +65,12 @@ footer{
         li{
             color: $color-primary;
             margin: 0 10px;
+            font-size: 12px;
+            border-bottom: 1px solid transparent;
+
+            &:hover{
+                border-bottom: 1px solid $color-primary;
+            }
 
             i{
                 font-size: 12px;
