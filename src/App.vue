@@ -7,6 +7,7 @@ import AppProductViewing from './components/AppProductViewing.vue';
 import AppCityWork from './components/AppCityWork.vue';
 import AppGalleryImages from './components/AppGalleryImages.vue';
 import AppDelivery from './components/AppDelivery.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default{
   components: {
@@ -17,7 +18,8 @@ export default{
     AppProductViewing,
     AppCityWork,
     AppGalleryImages,
-    AppDelivery
+    AppDelivery,
+    AppFooter
   }
 }
 </script>
@@ -34,8 +36,9 @@ export default{
     <AppCityWork></AppCityWork>
     <AppGalleryImages></AppGalleryImages>
     <AppDelivery></AppDelivery>
-
   </main>
+
+  <AppFooter></AppFooter>
 
 </template>
 

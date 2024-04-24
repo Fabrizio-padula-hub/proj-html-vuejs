@@ -19,7 +19,7 @@ export default{
                     </div>
                     <!-- /testo e numero -->
                     <!-- testo informativo -->
-                    <div class="text-info absolute-text">
+                    <div class="text-info absolute-text one-text">
                         <span>MANUAL INGREDIENTS SELECTION</span>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi repellat iusto recusandae inventore sapiente veniam quas iure. Perferendis consectetur eaque soluta dolore quia ratione unde, rerum voluptas, provident ipsam aut.
@@ -41,7 +41,7 @@ export default{
                     </div>
                     <!-- /testo e numero -->
                     <!-- testo informativo -->
-                    <div class="text-info">
+                    <div class="text-info absolute-text two-text">
                         <span>SWEET & DELICIUS</span>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi repellat iusto recusandae inventore sapiente veniam quas iure. Perferendis consectetur eaque soluta dolore quia ratione unde, rerum voluptas, provident ipsam aut.
@@ -55,7 +55,7 @@ export default{
             <div class="three padding-60">
                 
                 <!-- testo informativo -->
-                <div class="text-info">
+                <div class="text-info ">
                     <span>DONT JUST TAKE OUR WORD FOR IT</span>
                     <p class="paragraph">
                         "Finally foun an alternative to the mass produced products. Something that incorporates real organic ingredients, nutrient dense wellness while promoting sustainability and activity."
@@ -78,7 +78,7 @@ export default{
                     </div>
                     <!-- /testo e numero -->
                     <!-- testo informativo -->
-                    <div class="text-info">
+                    <div class="text-info absolute-text four-text">
                         <span>BAKED TO ORDER & GIFT WRAPPER</span>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi repellat iusto recusandae inventore sapiente veniam quas iure. Perferendis consectetur eaque soluta dolore quia ratione unde, rerum voluptas, provident ipsam aut.
@@ -168,9 +168,22 @@ export default{
 .absolute-text{
     width: 30%;
     position: absolute;
+    
+}
+.one-text{
     bottom: 50px; 
     right: 55px;
 }
+.two-text{
+    width: 50%;
+    bottom: 50px; 
+    left: 60px;
+}
+.four-text{
+    bottom: 50px; 
+    left: 60px;
+}
+
 
 .text-info{
     
@@ -184,6 +197,7 @@ export default{
         font-size: 14px;
         font-family: "Poppins", sans-serif;
         margin-top: 9px;
+        color: #f0edf5;
     }
     .paragraph{
         color: $color-primary;
